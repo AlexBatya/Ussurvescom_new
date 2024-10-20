@@ -1,0 +1,61 @@
+// Переменные для базовых цветов
+$main-color: #467996;
+$secondary-color: #ffffff;
+$text-color: #333333;
+
+// Переменные для шрифтов
+$font-family-base: 'Bebas', sans-serif;
+$width-container: 1200px;
+$width-phone: 480px;
+$width-tablet: 720px;
+
+$size-phone: 14px;
+$size-tablet: 16px;
+$size-desktop: 18px;
+
+.container{
+  max-width: $width-container;  
+  margin: 0 auto;
+  padding: 0 5px;
+}
+
+/* Убираем скроллбар и устанавливаем основные стили для всех страниц */
+
+html, body {
+	font-family: Open-Sanc;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden; /* Убираем горизонтальный скролл */
+}
+
+body {
+  font-family: $font-family-base;
+  background-color: #f0f2f5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

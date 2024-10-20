@@ -1,0 +1,111 @@
+@font-face {
+	font-family: 'Bebas';
+	src: url('../../assets/font/Bebas-Neue-Cyrillic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../../assets/font/icomoon.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-logo:before {
+  content: "\e906";
+}
+.icon-dismantling:before {
+  content: "\e905";
+}
+.icon-carbon_task-tools:before {
+  content: "\e904";
+}
+.icon-Verification:before {
+  content: "\e900";
+}
+.icon-vk:before {
+  content: "\e901";
+}
+.icon-telegram:before {
+  content: "\e902";
+}
+.icon-whatsApp:before {
+  content: "\e903";
+}
+.icon-file-picture:before {
+  content: "\e927";
+}
+.icon-qrcode:before {
+  content: "\e938";
+}
+.icon-phone:before {
+  content: "\e942";
+}
+.icon-pushpin:before {
+  content: "\e946";
+}
+.icon-display:before {
+  content: "\e956";
+}
+.icon-download:before {
+  content: "\e960";
+}
+.icon-upload:before {
+  content: "\e961";
+}
+.icon-database:before {
+  content: "\e964";
+}
+.icon-key:before {
+  content: "\e98d";
+}
+.icon-cogs:before {
+  content: "\e995";
+}
+.icon-truck:before {
+  content: "\e9b0";
+}
+.icon-star-empty:before {
+  content: "\e9d7";
+}
+.icon-star-full:before {
+  content: "\e9d9";
+}
+.icon-embed2:before {
+  content: "\ea80";
+}
+.icon-mail4:before {
+  content: "\ea86";
+}
+.icon-file-pdf:before {
+  content: "\eadf";
+}
+.icon-file-openoffice:before {
+  content: "\eae0";
+}
+.icon-file-word:before {
+  content: "\eae1";
+}
+.icon-file-excel:before {
+  content: "\eae2";
+}
+.icon-libreoffice:before {
+  content: "\eae3";
+}

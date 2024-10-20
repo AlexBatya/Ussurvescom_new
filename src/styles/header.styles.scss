@@ -1,0 +1,54 @@
+
+@import '../styles.scss';
+
+.header {
+  padding: 5px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; // Минимальная высота всей страницы
+
+  .header__main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+
+    .logo_icon:before {
+      font-size: 50px;
+      color: $main-color;
+    }
+  }
+
+  .text-description {
+    color: $main-color;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: left; // Выравниваем текст по левому краю
+    width: 100%; // Ширина равна ширине контейнера
+  }
+
+  .text-logo {
+    display: flex;
+    color: $main-color;
+    font-size: 162px;
+    font-weight: 400;
+    text-align: left; // Выравниваем текст по левому краю
+    width: 100%; // Ширина равна ширине контейнера
+    margin-bottom: 20px;
+  }
+
+  .wrapper {
+    flex-grow: 1; // Контейнер растягивается на оставшееся пространство
+    display: flex;
+  }
+
+  .baner {
+    width: 100%;
+    flex-grow: 1; // Баннер будет занимать всё оставшееся пространство по высоте
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+

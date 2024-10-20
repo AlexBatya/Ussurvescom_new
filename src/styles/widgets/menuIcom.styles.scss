@@ -1,0 +1,20 @@
+.menu-icon {
+  cursor: pointer;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 30px;
+  .line {
+    height: 3px;
+    background-color: #467996; // Ваш корпоративный цвет
+    /* Без закругления, углы будут острыми */
+  }
+
+  .short {
+    align-self: end;
+    width: 30px;
+  }
+
+}
+

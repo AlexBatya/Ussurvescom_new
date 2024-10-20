@@ -1,0 +1,7 @@
+{
+	"server": {
+		"host": "localhost",
+		"token": "12345",
+		"PORT": "3500"
+	}
+}
